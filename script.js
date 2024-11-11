@@ -14,12 +14,30 @@ function person() {
 
 person();
 
-function simpleCalculator(num1,num2) {
-const sum = num1 + num2;
+const viewpersoninfo =document. querySelector("#viewpersoninfo");
+console.log(viewpersoninfo);
 
-console.log(sum);
-}
+viewpersoninfo.addEventListener("click", person);
 
-simpleCalculator(12,2);
 
+
+
+//simpleCalculator(3,4);
+
+const viewcalculation =document. querySelector("#viewcalculation");
+console.log(viewcalculation);
+
+//viewcalculation.addEventListener("click", simplecalculator(3,4));
+
+/*viewcalculation.addEventListener("click", function simpleCalculator(num1,num2) {
+    const sum = num1 + num2;
+    
+    console.log(sum);
+    //simplecalculator(3,4)
+    
+})*/
+
+viewcalculation.addEventListener("click", function () {
+    simplecalculator (3,4)
+});
 
