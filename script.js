@@ -19,7 +19,10 @@ console.log(viewpersoninfo);
 
 viewpersoninfo.addEventListener("click", person);
 
-
+viewcalculation.addEventListener("click", function simpleCalculator(num1,num2) {
+    const sum = num1 + num2;
+    
+    console.log(sum);)
 
 
 //simpleCalculator(3,4);
